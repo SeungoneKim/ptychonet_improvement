@@ -1,0 +1,196 @@
+Loading Flickr30K dataset...
+Total: 31014, Train: 28600, Test: 2414
+
+======================================================================
+Training step60_mse: obj_size=428, n_pos=36, max_steps=2500
+======================================================================
+  Step 100/2500, loss=0.036514, lr=0.000199, time=23s
+  Step 200/2500, loss=0.028554, lr=0.000197, time=45s
+  Step 300/2500, loss=0.026858, lr=0.000193, time=64s
+  Step 400/2500, loss=0.027322, lr=0.000188, time=84s
+  Step 500/2500, loss=0.022507, lr=0.000181, time=103s
+  >> Val: Amp NRMSE=0.1934±0.0238, Phase NRMSE=0.5397±0.1726
+  Step 600/2500, loss=0.025987, lr=0.000173, time=126s
+  Step 700/2500, loss=0.024432, lr=0.000164, time=145s
+  Step 800/2500, loss=0.023920, lr=0.000154, time=163s
+  Step 900/2500, loss=0.025194, lr=0.000143, time=182s
+  Step 1000/2500, loss=0.022557, lr=0.000132, time=200s
+  >> Val: Amp NRMSE=0.1773±0.0191, Phase NRMSE=0.4756±0.1393
+  Step 1100/2500, loss=0.024443, lr=0.000120, time=223s
+  Step 1200/2500, loss=0.018246, lr=0.000107, time=242s
+  Step 1300/2500, loss=0.019056, lr=0.000095, time=260s
+  Step 1400/2500, loss=0.017045, lr=0.000082, time=279s
+  Step 1500/2500, loss=0.019704, lr=0.000070, time=297s
+  >> Val: Amp NRMSE=0.0835±0.0189, Phase NRMSE=0.2533±0.0788
+  Step 1600/2500, loss=0.016480, lr=0.000059, time=320s
+  Step 1700/2500, loss=0.019599, lr=0.000048, time=338s
+  Step 1800/2500, loss=0.019841, lr=0.000038, time=357s
+  Step 1900/2500, loss=0.022038, lr=0.000029, time=375s
+  Step 2000/2500, loss=0.017986, lr=0.000021, time=394s
+  >> Val: Amp NRMSE=0.0773±0.0186, Phase NRMSE=0.2316±0.0717
+  Step 2100/2500, loss=0.018863, lr=0.000014, time=416s
+  Step 2200/2500, loss=0.017926, lr=0.000009, time=435s
+  Step 2300/2500, loss=0.017635, lr=0.000005, time=453s
+  Step 2400/2500, loss=0.020276, lr=0.000003, time=472s
+  Step 2500/2500, loss=0.017519, lr=0.000002, time=490s
+  >> Val: Amp NRMSE=0.0766±0.0190, Phase NRMSE=0.2300±0.0715
+
+Final evaluation on full test set...
+  FINAL: Amp NRMSE=0.0770±0.0196, Phase NRMSE=0.2323±0.0739
+
+======================================================================
+Training step40_mse: obj_size=328, n_pos=36, max_steps=2000
+======================================================================
+  Step 100/2000, loss=0.037135, lr=0.000199, time=18s
+  Step 200/2000, loss=0.032071, lr=0.000195, time=35s
+  Step 300/2000, loss=0.027234, lr=0.000189, time=52s
+  Step 400/2000, loss=0.030594, lr=0.000181, time=69s
+  Step 500/2000, loss=0.021411, lr=0.000171, time=86s
+  >> Val: Amp NRMSE=0.1127±0.0171, Phase NRMSE=0.3209±0.0862
+  Step 600/2000, loss=0.024756, lr=0.000159, time=106s
+  Step 700/2000, loss=0.025590, lr=0.000146, time=123s
+  Step 800/2000, loss=0.026730, lr=0.000132, time=140s
+  Step 900/2000, loss=0.031247, lr=0.000116, time=158s
+  Step 1000/2000, loss=0.031864, lr=0.000101, time=175s
+  >> Val: Amp NRMSE=0.1123±0.0199, Phase NRMSE=0.3130±0.0853
+  Step 1100/2000, loss=0.027344, lr=0.000086, time=196s
+  Step 1200/2000, loss=0.024092, lr=0.000070, time=212s
+  Step 1300/2000, loss=0.028245, lr=0.000056, time=229s
+  Step 1400/2000, loss=0.023601, lr=0.000043, time=246s
+  Step 1500/2000, loss=0.021722, lr=0.000031, time=263s
+  >> Val: Amp NRMSE=0.0866±0.0209, Phase NRMSE=0.2601±0.0806
+  Step 1600/2000, loss=0.027808, lr=0.000021, time=284s
+  Step 1700/2000, loss=0.020545, lr=0.000013, time=301s
+  Step 1800/2000, loss=0.020661, lr=0.000007, time=318s
+  Step 1900/2000, loss=0.022865, lr=0.000003, time=335s
+  Step 2000/2000, loss=0.023343, lr=0.000002, time=352s
+  >> Val: Amp NRMSE=0.0845±0.0202, Phase NRMSE=0.2522±0.0800
+
+Final evaluation on full test set...
+  FINAL: Amp NRMSE=0.0846±0.0205, Phase NRMSE=0.2536±0.0814
+
+======================================================================
+Training step20_mse: obj_size=228, n_pos=36, max_steps=2000
+======================================================================
+  Step 100/2000, loss=0.041645, lr=0.000199, time=18s
+  Step 200/2000, loss=0.044608, lr=0.000195, time=35s
+  Step 300/2000, loss=0.037143, lr=0.000189, time=51s
+  Step 400/2000, loss=0.036694, lr=0.000181, time=67s
+  Step 500/2000, loss=0.032258, lr=0.000171, time=83s
+  >> Val: Amp NRMSE=0.1389±0.0269, Phase NRMSE=0.3819±0.1087
+  Step 600/2000, loss=0.039722, lr=0.000159, time=103s
+  Step 700/2000, loss=0.033618, lr=0.000146, time=119s
+  Step 800/2000, loss=0.029746, lr=0.000132, time=135s
+  Step 900/2000, loss=0.030622, lr=0.000116, time=152s
+  Step 1000/2000, loss=0.031624, lr=0.000101, time=168s
+  >> Val: Amp NRMSE=0.1370±0.0159, Phase NRMSE=0.3340±0.0952
+  Step 1100/2000, loss=0.025641, lr=0.000086, time=188s
+  Step 1200/2000, loss=0.034063, lr=0.000070, time=204s
+  Step 1300/2000, loss=0.031981, lr=0.000056, time=220s
+  Step 1400/2000, loss=0.031186, lr=0.000043, time=237s
+  Step 1500/2000, loss=0.027552, lr=0.000031, time=253s
+  >> Val: Amp NRMSE=0.1072±0.0203, Phase NRMSE=0.3002±0.0912
+  Step 1600/2000, loss=0.036627, lr=0.000021, time=273s
+  Step 1700/2000, loss=0.030707, lr=0.000013, time=289s
+  Step 1800/2000, loss=0.030359, lr=0.000007, time=306s
+  Step 1900/2000, loss=0.030450, lr=0.000003, time=322s
+  Step 2000/2000, loss=0.033599, lr=0.000002, time=338s
+  >> Val: Amp NRMSE=0.0980±0.0238, Phase NRMSE=0.2925±0.0914
+
+Final evaluation on full test set...
+  FINAL: Amp NRMSE=0.0977±0.0236, Phase NRMSE=0.2926±0.0905
+
+======================================================================
+Training step60_dse: obj_size=428, n_pos=36, max_steps=2000
+======================================================================
+  Step 100/2000, loss=0.040725, lr=0.000199, time=20s
+  Step 200/2000, loss=0.028458, lr=0.000195, time=40s
+  Step 300/2000, loss=0.029942, lr=0.000189, time=60s
+  Step 400/2000, loss=0.026865, lr=0.000181, time=79s
+  Step 500/2000, loss=0.027969, lr=0.000171, time=99s
+  >> Val: Amp NRMSE=0.1739±0.0227, Phase NRMSE=0.4458±0.1275
+  Step 600/2000, loss=0.027055, lr=0.000159, time=122s
+  Step 700/2000, loss=0.028318, lr=0.000146, time=142s
+  Step 800/2000, loss=0.024498, lr=0.000132, time=161s
+  Step 900/2000, loss=0.023688, lr=0.000116, time=182s
+  Step 1000/2000, loss=0.024581, lr=0.000101, time=201s
+  >> Val: Amp NRMSE=0.0967±0.0161, Phase NRMSE=0.2834±0.0728
+  Step 1100/2000, loss=0.021632, lr=0.000086, time=225s
+  Step 1200/2000, loss=0.024366, lr=0.000070, time=244s
+  Step 1300/2000, loss=0.020206, lr=0.000056, time=264s
+  Step 1400/2000, loss=0.022501, lr=0.000043, time=284s
+  Step 1500/2000, loss=0.022575, lr=0.000031, time=303s
+  >> Val: Amp NRMSE=0.0788±0.0192, Phase NRMSE=0.2376±0.0750
+  Step 1600/2000, loss=0.018979, lr=0.000021, time=327s
+  Step 1700/2000, loss=0.021848, lr=0.000013, time=346s
+  Step 1800/2000, loss=0.019327, lr=0.000007, time=367s
+  Step 1900/2000, loss=0.018758, lr=0.000003, time=386s
+  Step 2000/2000, loss=0.017814, lr=0.000002, time=406s
+  >> Val: Amp NRMSE=0.0776±0.0190, Phase NRMSE=0.2329±0.0735
+
+Final evaluation on full test set...
+  FINAL: Amp NRMSE=0.0780±0.0196, Phase NRMSE=0.2352±0.0757
+
+======================================================================
+Training step40_dse: obj_size=328, n_pos=36, max_steps=1500
+======================================================================
+  Step 100/1500, loss=0.046733, lr=0.000198, time=19s
+  Step 200/1500, loss=0.033581, lr=0.000191, time=36s
+  Step 300/1500, loss=0.034205, lr=0.000181, time=54s
+  Step 400/1500, loss=0.030638, lr=0.000167, time=72s
+  Step 500/1500, loss=0.031872, lr=0.000150, time=89s
+  >> Val: Amp NRMSE=0.1445±0.0164, Phase NRMSE=0.3257±0.0832
+  Step 600/1500, loss=0.025876, lr=0.000132, time=111s
+  Step 700/1500, loss=0.025853, lr=0.000111, time=129s
+  Step 800/1500, loss=0.025770, lr=0.000091, time=147s
+  Step 900/1500, loss=0.025133, lr=0.000070, time=165s
+  Step 1000/1500, loss=0.027234, lr=0.000051, time=183s
+  >> Val: Amp NRMSE=0.0913±0.0195, Phase NRMSE=0.2678±0.0807
+  Step 1100/1500, loss=0.024714, lr=0.000035, time=204s
+  Step 1200/1500, loss=0.026369, lr=0.000021, time=222s
+  Step 1300/1500, loss=0.024899, lr=0.000011, time=240s
+  Step 1400/1500, loss=0.028173, lr=0.000004, time=257s
+  Step 1500/1500, loss=0.023353, lr=0.000002, time=275s
+  >> Val: Amp NRMSE=0.0885±0.0200, Phase NRMSE=0.2628±0.0809
+
+Final evaluation on full test set...
+  FINAL: Amp NRMSE=0.0887±0.0203, Phase NRMSE=0.2642±0.0823
+
+======================================================================
+Training step20_dse: obj_size=228, n_pos=36, max_steps=1500
+======================================================================
+  Step 100/1500, loss=0.047959, lr=0.000198, time=18s
+  Step 200/1500, loss=0.048272, lr=0.000191, time=35s
+  Step 300/1500, loss=0.042790, lr=0.000181, time=53s
+  Step 400/1500, loss=0.039554, lr=0.000167, time=70s
+  Step 500/1500, loss=0.039073, lr=0.000150, time=87s
+  >> Val: Amp NRMSE=0.1720±0.0203, Phase NRMSE=0.3588±0.0946
+  Step 600/1500, loss=0.035674, lr=0.000132, time=108s
+  Step 700/1500, loss=0.034391, lr=0.000111, time=126s
+  Step 800/1500, loss=0.033265, lr=0.000091, time=143s
+  Step 900/1500, loss=0.034308, lr=0.000070, time=161s
+  Step 1000/1500, loss=0.038562, lr=0.000051, time=178s
+  >> Val: Amp NRMSE=0.1064±0.0231, Phase NRMSE=0.3127±0.0953
+  Step 1100/1500, loss=0.039280, lr=0.000035, time=199s
+  Step 1200/1500, loss=0.031998, lr=0.000021, time=216s
+  Step 1300/1500, loss=0.035359, lr=0.000011, time=234s
+  Step 1400/1500, loss=0.031038, lr=0.000004, time=251s
+  Step 1500/1500, loss=0.028717, lr=0.000002, time=268s
+  >> Val: Amp NRMSE=0.1004±0.0247, Phase NRMSE=0.3014±0.0946
+
+Final evaluation on full test set...
+  FINAL: Amp NRMSE=0.1003±0.0243, Phase NRMSE=0.3018±0.0930
+
+==========================================================================================
+PTYCHONET BASELINE RESULTS
+==========================================================================================
+Config                               Amp NRMSE          Phase NRMSE
+-----------------------------------------------------------------
+step20_dse                0.1003 ± 0.0243    0.3018 ± 0.0930
+step20_mse                0.0977 ± 0.0236    0.2926 ± 0.0905
+step40_dse                0.0887 ± 0.0203    0.2642 ± 0.0823
+step40_mse                0.0846 ± 0.0205    0.2536 ± 0.0814
+step60_dse                0.0780 ± 0.0196    0.2352 ± 0.0757
+step60_mse                0.0770 ± 0.0196    0.2323 ± 0.0739
+
+Total baseline training time: 37.4 minutes

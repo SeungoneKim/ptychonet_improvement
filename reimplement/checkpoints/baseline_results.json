@@ -1,0 +1,38 @@
+{
+  "step60_mse": {
+    "amp_nrmse_mean": 0.07704837620258331,
+    "amp_nrmse_std": 0.019627057015895844,
+    "phase_nrmse_mean": 0.23233653604984283,
+    "phase_nrmse_std": 0.07386988401412964
+  },
+  "step40_mse": {
+    "amp_nrmse_mean": 0.08462410420179367,
+    "amp_nrmse_std": 0.02053716778755188,
+    "phase_nrmse_mean": 0.25358104705810547,
+    "phase_nrmse_std": 0.08142375946044922
+  },
+  "step20_mse": {
+    "amp_nrmse_mean": 0.09774301201105118,
+    "amp_nrmse_std": 0.02363884449005127,
+    "phase_nrmse_mean": 0.29263800382614136,
+    "phase_nrmse_std": 0.0904570147395134
+  },
+  "step60_dse": {
+    "amp_nrmse_mean": 0.07803725451231003,
+    "amp_nrmse_std": 0.01955343224108219,
+    "phase_nrmse_mean": 0.2352350503206253,
+    "phase_nrmse_std": 0.0756605938076973
+  },
+  "step40_dse": {
+    "amp_nrmse_mean": 0.08874276280403137,
+    "amp_nrmse_std": 0.020335225388407707,
+    "phase_nrmse_mean": 0.2642483711242676,
+    "phase_nrmse_std": 0.08230949193239212
+  },
+  "step20_dse": {
+    "amp_nrmse_mean": 0.1002800241112709,
+    "amp_nrmse_std": 0.024332672357559204,
+    "phase_nrmse_mean": 0.30180108547210693,
+    "phase_nrmse_std": 0.09300074726343155
+  }
+}

@@ -1,0 +1,15 @@
+# Model checkpoints (large binary files)
+*.pt
+*.pth
+*.ckpt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# HuggingFace dataset cache
+.cache/
+
+# OS
+.DS_Store
