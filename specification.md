@@ -54,7 +54,7 @@ You must evaluate all methods under these exact conditions:
 | Sparse    | 60 pixels     | ~6%             | Hard       |
 
 - **Noise:** Noise-free (matching PtychoNet's original setup)
-- **Test set:** At least 500 held-out Flickr30K images not seen during training
+- **Test set:** 3,183 held-out Flickr30K images not seen during training
 - **Metrics:** NRMSE for amplitude and phase separately, with global phase shift correction (find the constant $c$ minimizing $\|\hat{\phi} - \phi - c\|$). Report mean ± std over the test set.
 
 ### Instructions for Downloading the Dataset
@@ -64,7 +64,7 @@ Download the Flickr30K dataset from HuggingFace:
 from datasets import load_dataset
 dataset = load_dataset("nlphuji/flickr30k", split="test")
 train_data = dataset.select(range(28600))
-test_data = dataset.select(range(28600, len(dataset)))
+test_data = dataset.select(range(28600, len(dataset))) # this should not be used as the validation set and only used as the final test set!
 ```
 
 The dataset contains 31,783 images. Use the first 28,600 images for training 
@@ -80,8 +80,8 @@ objects for simulating ptychographic measurements.
 
 ### Compute Budget
 
-- You are running in a resource-constrained environment (single machine, limited VRAM and time). Design experiments accordingly.
-- **Babysit your experiments:** monitor training, catch divergence early, adjust hyperparameters, and iterate. Don't fire-and-forget.
+- You are running in a resource-constrained environment (single machine, one H100 GPU with 80GB memory, total 2 hours for reimplementation and experiments). Design experiments accordingly. Failing to finish the task within the given timeframe will lead to zero scores on the evaluation.
+- **Babysit your experiments:** monitor training, catch divergence early, adjust hyperparameters, and iterate. Don't fire-and-forget. It is important to set a reasonable sleep time to match the 2 hour limit.
 
 ### Autonomy
 
